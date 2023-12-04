@@ -14,6 +14,7 @@ DIGITS = {"o1e": "one",
 DIGITS_DECREASED = dict(reversed(list(DIGITS.items())))
 
 
+
 def extractFirstAndLastDigit(line):
     """
     ex : 1abc2 => (1, 2)
